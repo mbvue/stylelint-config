@@ -1,0 +1,29 @@
+{
+    "name": "@mbvue/stylelint-config",
+    "version": "0.0.1",
+    "description": "stylelint config",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mbvue/stylelint-config.git"
+    },
+    "bugs": {
+        "url": "https://github.com/mbvue/stylelint-config/issues"
+    },
+    "homepage": "https://github.com/mbvue/stylelint-config#readme",
+    "keywords": [
+        "stylelint",
+        "stylelint config",
+        "mb",
+        "mbvue"
+    ],
+    "author": "hwq <17031989083@qq.com>",
+    "license": "MIT",
+    "dependencies": {
+        "stylelint": "^13.7.2",
+        "stylelint-config-prettier": "^8.0.2",
+        "stylelint-config-rational-order": "^0.1.2",
+        "stylelint-config-standard": "^20.0.0",
+        "stylelint-order": "^4.1.0"
+    }
+}
