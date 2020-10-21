@@ -8,7 +8,11 @@ yarn add -D @mbvue/stylelint-config
 .stylelintrc.js：
 
 module.exports = {
-  extends: ["@mbvue/stylelint-config"],
+  extends: ['@mbvue/stylelint-config']
+};
+
+module.exports = {
+  extends: ['@mbvue/stylelint-config'],
   rules: {}
 };
 
@@ -19,6 +23,11 @@ or
 or
 
 {
+  "extends": ["@mbvue/stylelint-config"]
+}
+
+
+{
   "extends": ["@mbvue/stylelint-config"],
   "rules": {}
 }
@@ -26,6 +35,12 @@ or
 or
 
 package.json：
+
+{
+  "stylelint": {
+    "extends": "@mbvue/stylelint-config"
+  }
+}
 
 {
   "stylelint": {
