@@ -2,45 +2,55 @@
 StyleLint Config.
 
 ## Installation
+```bash
 yarn add -D @mbvue/stylelint-config
+```
 
 ## Usage
 .stylelintrc.js：
 
+```js
 module.exports = {
   extends: ['@mbvue/stylelint-config']
 };
+
+# OR
 
 module.exports = {
   extends: ['@mbvue/stylelint-config'],
   rules: {}
 };
+```
 
-or
+OR
 
 .stylelintrc.json：
 
-or
-
+```json
 {
   "extends": ["@mbvue/stylelint-config"]
 }
 
+# OR
 
 {
   "extends": ["@mbvue/stylelint-config"],
   "rules": {}
 }
+```
 
-or
+OR
 
 package.json：
 
+```json
 {
   "stylelint": {
     "extends": "@mbvue/stylelint-config"
   }
 }
+
+# OR
 
 {
   "stylelint": {
@@ -48,3 +58,4 @@ package.json：
     "rules": {}
   }
 }
+```
