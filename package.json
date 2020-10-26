@@ -1,6 +1,6 @@
 {
     "name": "@mbvue/stylelint-config",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "stylelint config",
     "main": "index.js",
     "repository": {
@@ -22,7 +22,7 @@
     "dependencies": {
         "stylelint": "^13.7.2",
         "stylelint-config-prettier": "^8.0.2",
-        "stylelint-config-rational-order": "^0.1.2",
+        "stylelint-config-recess-order": "^2.3.0",
         "stylelint-config-standard": "^20.0.0",
         "stylelint-order": "^4.1.0"
     }

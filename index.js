@@ -1,7 +1,7 @@
 module.exports = {
     extends: [
         'stylelint-config-standard', //stylelint 推荐配置
-        'stylelint-config-rational-order', //属性顺序的规则
+        'stylelint-config-recess-order', //属性顺序的规则
         'stylelint-config-prettier' //处理 Prettier 冲突
     ],
 
