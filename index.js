@@ -5,6 +5,19 @@ module.exports = {
         'stylelint-config-prettier' //处理 Prettier 冲突
     ],
 
+    plugins: [
+        'stylelint-scss', //支持scss
+        'stylelint-order' //排序规则
+    ],
+
+    ignoreFiles: [
+        '**/*.js',
+        '**/*.jsx',
+        '**/*.ts',
+        '**/*.tsx',
+        '**/*.md'
+    ],
+
     rules: {
         "comment-empty-line-before": null, //禁止在注释之前有空行
         'declaration-empty-line-before': null, //禁止声明前不允许空一行
