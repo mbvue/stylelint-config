@@ -25,6 +25,6 @@ module.exports = {
         'indentation': null, //禁止缩进
         'number-leading-zero': null, //禁止低于1的数字禁止前导零
         'value-list-max-empty-lines': null, //禁止限制相邻的数量值列表内空行
-        'no-descending-specificity': null, //禁止低优先级的选择器出现在高优先级的选择器之后
-    },
+        'no-descending-specificity': null //禁止低优先级的选择器出现在高优先级的选择器之后
+    }
 };
