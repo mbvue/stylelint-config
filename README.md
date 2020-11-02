@@ -1,8 +1,8 @@
 ## Installation
 ```bash
-yarn add -D @mbvue/stylelint-config
-#OR
 npm install --save-dev @mbvue/stylelint-config
+#OR
+yarn add -D @mbvue/stylelint-config
 ```
 
 ## Usage
