@@ -1,6 +1,3 @@
-## Vendor
-StyleLint Config.
-
 ## Installation
 ```bash
 yarn add -D @mbvue/stylelint-config
