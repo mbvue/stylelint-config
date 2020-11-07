@@ -10,5 +10,7 @@ module.exports = {
         'stylelint-order' //排序规则
     ],
 
-    rules: {}
+    rules: {
+        'no-descending-specificity': null //禁止低优先级的选择器出现在高优先级的选择器之后
+    }
 };
